@@ -8,11 +8,8 @@ msg db 0AH,0DH,'HELLO WORLD. $'
 main proc
     mov ax,@data
     mov ds, ax     
-    
     mov cx,5
     
-    ;print 5 times
-          
     print_ntime:
         lea dx, msg
         mov ah,9

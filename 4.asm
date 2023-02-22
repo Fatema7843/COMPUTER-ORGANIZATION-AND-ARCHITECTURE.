@@ -52,7 +52,7 @@ main proc
         dec cx
         jg EXIT
     
-    Greter:
+    Grater:
         lea dx, msg1
         mov ah,9
         int 21h
